@@ -9,11 +9,11 @@
     <body>
         <div class="header">
             <h2 class="name">Rolsa Technologies</h2>
-            <div class="button">About us</div>
-            <div class="button">Carbon footprint</div>
-            <div class="button">Products</div>
-            <div class="button">Contact us</div>
-            <div class="button">Registration/login</div>
+            <div class="button" onclick="window.open('index.php','_self')">About us</div>
+            <div class="button" onclick="window.open('carbon.php','_self')">Carbon footprint</div>
+            <div class="button" onclick="window.open('products.php','_self')">Products</div>
+            <div class="button" onclick="window.open('contact.php','_self')">Contact us</div>
+            <div class="button Reg" onclick="window.open('registration.php','_self')">Registration/login</div>
         </div>
     </body>
 </html>
